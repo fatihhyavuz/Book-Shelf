@@ -291,3 +291,42 @@ main > section p{
 
     line-height: 25px;
 }
+
+   
+.comment {
+    display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 20px;
+  /*  display: grid;
+    grid-column: 100px 100px;
+    grid-row: 200px 200px 200px;*/
+}
+
+.comment >section > div img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.comment > section img , h3{
+    display: inline-block;
+
+} 
+
+.comment > section  span {
+  
+}   
+.comment >section {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.863);
+    padding: 10px;
+    margin: 30px;
+}
