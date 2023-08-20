@@ -194,7 +194,8 @@ label[for="chkmenu"]{
 
 }
 .banner .order-form button{
-    background-color: white;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.699);
     padding: 15px;
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -300,6 +301,11 @@ main > section p{
   /*  display: grid;
     grid-column: 100px 100px;
     grid-row: 200px 200px 200px;*/
+}
+@media (max-width: 768px) {
+  .comment {
+    grid-template-columns: repeat(1, 1fr); /* Tek sütunlu düzen */
+  }
 }
 
 .comment >section > div img {
